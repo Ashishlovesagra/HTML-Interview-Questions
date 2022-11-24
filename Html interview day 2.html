@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">HTML Interview Questions Day 2</h1>
+    <h3>Q.Difference between block and inline element ?</h3>
+    <ul><li type="none"><b>Block Elements</b></li>
+        <li>A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.</li>
+        <li>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</li>
+        <li>Two commonly used block elements are: &lt;p&gt; tag and &lt;div&gt; tag.</li>
+        <br>
+        <li type="none"><b>Inline Elements</b></li>
+        <li>An inline element does not start on a new line.</li>
+        <li>An inline element only takes up as much width as necessary.</li>
+        <li><span >This is a &lt;span&gt; element inside a paragraph</span></li>
+    </ul>
+    <h3>Q.Explain br tags ?</h3>
+    <ul>
+        <li>If you want to start a new line, you need to insert a line break with the help of the &lt;br &gt;. The &lt;br &gt; tag inserts a single carriage return or breaks in the document. This element has no end tag.</li>
+    </ul>
+    <h3>Q.Explain how many difference types of lists we have in html ?</h3>
+    <ul>
+        <li type="none">There are three list types in HTML:</li><br>
+        <li type="none"><u> Unordered HTML List </u></li><br>
+        <li>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.</li>
+        <li>The list items will be marked with bullets (small black circles) by default:</li><br>
+        <li type="none"><u>Ordered HTML List</u></li><br>
+        <li>An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag.</li>
+        <li>The list items will be marked with numbers by default:</li><br>
+        <li type="none"><u>HTML Description Lists</u></li><br>
+        <li>HTML also supports description lists.</li>
+        <li>A description list is a list of terms, with a description of each term.</li>
+        <li>The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag describes each term:</li>
+    </ul>
+    <h3>Q.What are Semantic tags ?</h3>
+    <ul>
+        <li>A semantic element clearly describes its meaning to both the browser and the developer.</li>
+    </ul>
+    <h3>Q.write a code to create an ordered list with roman numbers?</h3>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en" &gt;
+        &lt;head&gt;
+        &lt; title &gt; Ordered list with roman numbers&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;ol type="I"&gt; 
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+        &lt;li&gt;item 3&lt;/li&gt;
+        &lt;li&gt;item 4&lt;/li&gt;
+        &lt;li&gt;item 5&lt;/li&gt;        
+        &lt;/ol&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <h3>Q.write a code to create an unordered list with circle?</h3>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en" &gt;
+        &lt;head&gt;
+        &lt; title &gt; Unordered list with circle&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;ul type="circle"&gt; 
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+        &lt;li&gt;item 3&lt;/li&gt;
+        &lt;li&gt;item 4&lt;/li&gt;
+        &lt;li&gt;item 5&lt;/li&gt;        
+        &lt;/ul&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <h3>Q.write a code to create a link to https://www.prepbytes.com ?</h3>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en" &gt;
+        &lt;head&gt;
+        &lt; title &gt; create a link &lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;a&gt; href="https://www.prepbytes.com" &gt;click here&lt;/a&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <h3>Q.write a code to insert an image ?</h3>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en" &gt;
+        &lt;head&gt;
+        &lt; title &gt;insert an image&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;img src="./image.jpg" alt=""&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <h3>Q.create a form contain input fields like name ,age ,email and contact</h3>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en" &gt;
+        &lt;head&gt;
+        &lt; title &gt;Form contain input fields&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;form action=""&gt;
+        Name:&lt;input type="text"&gt;&lt;br&gt;&lt;br&gt;
+        Age:&lt;input type="number"&gt;&lt;br&gt;&lt;br&gt;
+        Email:&lt;input type="email"&gt;&lt;br&gt;&lt;br&gt;
+        Contact:&lt;input type="tel"&gt;&lt;br&gt;&lt;br&gt; 
+        &lt;/form &gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <h3>Q.create a radio button (MERN,MEAN : Course) and checkbox (HTML,CSS,
+        React,Node : technology) and explain the difference between these two</h3>
+
+        <Pre>
+        <strong>Radio button:-In radio button we can select only one option</strong> <br>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en" &gt;
+        &lt;head&gt;
+        &lt; title &gt;Radio button&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;label&gt;Course&lt;/label&gt;&lt;br&gt;&lt;br&gt;
+        &lt;input type="radio" name="Course"&gt;MERN &lt;br&gt;
+        &lt;input type="radio" name="Course"&gt;MEAN &lt;br&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        <br>
+        <strong>Checkbox button:-In checkbox button we select multiple options</strong><br>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en" &gt;
+        &lt;head&gt;
+        &lt; title &gt;Radio button&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;label&gt;Technology&lt;/label&gt;&lt;br&gt;&lt;br&gt;
+        &lt;input type="checkbox" name="HTML"&gt;HTML &lt;br&gt;
+        &lt;input type="checkbox" name="CSS"&gt;CSS &lt;br&gt;
+        &lt;input type="checkbox" name="React"&gt;React &lt;br&gt;
+        &lt;input type="checkbox" name="Node"&gt;Node &lt;br&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </Pre>
+</body>
+</html>
